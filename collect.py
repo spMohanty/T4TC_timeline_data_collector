@@ -31,6 +31,8 @@ for timeline in timelines:
 			if len(images)>0:
 				d['media'] = images[0]['src']
 				d['icon'] = images[0]['src']
+			else:
+				d['media'] = "https://c2.staticflickr.com/6/5087/5248565279_56c7a0d787_z.jpg"
 			items.append(d)
 		if count == 0:
 			break
